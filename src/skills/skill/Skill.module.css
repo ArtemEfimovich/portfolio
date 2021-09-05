@@ -1,0 +1,24 @@
+.skill{
+    width: 250px;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.skill h3{
+    margin-top: 0 ;
+}
+
+.icon{
+    height: 60px;
+    width: 60px;
+    background-color: grey;
+}
+
+
+.description{
+
+}
