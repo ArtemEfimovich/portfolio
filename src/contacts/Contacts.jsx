@@ -5,10 +5,10 @@ import styles from '../common/styles/Container.module.css'
 
 const Contacts = () => {
     return (
-        <div className={s.contactsBlock}>
-            <div className={`${styles.container} ${s.contactsContainer}`}>
+        <div className={`${s.contactsBlock} ${styles.container} `}>
+            <div className={s.contactsContainer}>
                     <div className={s.title}> Contacts</div>
-                <form action="">
+                <form action="" className={s.form}>
                     <input type="text"/>
                     <input type="text"/>
                     <textarea name="" id="" cols="30" rows="10"></textarea>
