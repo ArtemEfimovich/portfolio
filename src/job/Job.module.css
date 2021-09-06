@@ -1,0 +1,20 @@
+.jobBlock{
+    height: 20vh;
+    background-color: aliceblue;
+}
+
+.jobsContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 1.3em;
+}
+
+.jobsContainer button{
+    background-color: grey;
+    width: 100px;
+    height: 30px;
+
+}

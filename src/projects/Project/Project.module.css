@@ -1,0 +1,33 @@
+.project {
+    width: 250px;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.image button{
+    width: 100px;
+    height: 30px;
+    background-color: darkgray;
+}
+
+.image {
+    width: 100%;
+    background-color: grey;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.project h4{
+    margin: 0 0 0 10px;
+}
+
+.description{
+    margin: 5px;
+    height: 100px;
+    background-color: grey;
+}
