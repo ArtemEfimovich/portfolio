@@ -1,12 +1,25 @@
 .projectsBlock{
-    height: 100vh;
-    background-color: aliceblue;
+background-color: rgba(0,0,0,.8);
 }
 
 .projectsContainer{
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+.projectsContainer h3{
+    position: absolute;
+    left: -6px;
+    top: 0;
+    font-family: "Montserrat";
+    color: transparent;
+    font-size: 150px;
+    font-weight: 900;
+    opacity: .1;
+    line-height: 0;
+    -webkit-text-stroke: 1px #000;
+    -webkit-user-select: none;
 }
 
 
@@ -21,4 +34,11 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 630px) {
+    .projects{
+        justify-content: center;
+    }
 }

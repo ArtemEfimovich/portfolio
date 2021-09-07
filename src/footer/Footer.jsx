@@ -5,8 +5,8 @@ import styles from '../common/styles/Container.module.css'
 
 const Footer = () => {
     return (
-        <div className={`${s.footerBlock} ${styles.container}`}>
-            <div className={s.container}>
+        <div className={`${s.footerBlock} `}>
+            <div className={`${s.container} ${styles.container}`}>
                 <h4>Efimovich Artem</h4>
                 <div className={s.icons}>
                     <div className={s.icon}>icon</div>

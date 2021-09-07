@@ -1,6 +1,6 @@
 .mainContainer {
-    height: 100vh;
-    background-color: rgba(142, 156, 37, 0.43);
+    min-height: 100vh;
+    background-color:  rgba(0,0,0,.8);
 }
 
 .container {
@@ -25,3 +25,8 @@
 
 }
 
+@media screen and (max-width: 650px) {
+    .container {
+        justify-content: center;
+    }
+}

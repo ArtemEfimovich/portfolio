@@ -1,12 +1,5 @@
 .contactsBlock{
-    height: 80vh;
-    background-color: grey;
-    border: 1px solid;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    flex-wrap: wrap;
+    background-color:  rgba(0,0,0,.8);
 }
 
 
@@ -38,4 +31,8 @@
     width: 100px;
     height: 30px;
     background-color: grey;
+}
+
+.form input, .form textarea {
+    width: 100%;
 }

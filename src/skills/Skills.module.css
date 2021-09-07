@@ -1,6 +1,6 @@
 .skillsBlock {
-    height: 100vh;
-    background-color: darkcyan;
+    min-height: 100vh;
+    background-color:  rgba(0,0,0,.8);
 }
 
 .skillsContainer {
@@ -22,3 +22,10 @@
     flex-wrap: wrap;
 }
 
+
+
+@media screen  and (max-width: 650px){
+    .skills{
+        justify-content: center;
+    }
+}
