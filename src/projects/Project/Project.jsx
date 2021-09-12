@@ -1,7 +1,8 @@
 import React from 'react';
 import s from "./Project.module.css";
 
-const Project = ({icon,title,description}) => {
+const
+    Project = ({icon,title,description}) => {
     return (
         <div className={s.project}>
            <div className={s.image}>
