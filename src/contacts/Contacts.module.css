@@ -5,22 +5,15 @@
 
 
 .contactsContainer{
-    border: 1px solid;
-    width: 80%;
-    height: 60%;
-    display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .form{
-    border: 1px solid;
+    width: 50%;
     display: flex;
     flex-direction: column;
-
+    align-items: center;
 }
 
 .title{
@@ -28,8 +21,7 @@
 }
 
 .button{
-    width: 100px;
-    height: 30px;
+    padding: 10px 20px;
     background-color: grey;
 }
 

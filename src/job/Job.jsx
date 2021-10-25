@@ -6,10 +6,11 @@ const Job = () => {
     return (
         <div className={s.jobBlock}>
             <div className={`${styles.container} ${s.jobsContainer}`}>
-                <div className={s.title}>Considering options for remote work</div>
-                <button>
-                    Hire me
-                </button>
+                <h2 className={s.title}>Considering options for remote work</h2>
+               <div>
+                   <button className={s.button}>Hire me</button>
+               </div>
+
             </div>
 
         </div>

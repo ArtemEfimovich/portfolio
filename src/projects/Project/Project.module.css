@@ -1,5 +1,5 @@
 .project {
-    width: 250px;
+    width: 450px;
     background-color: darkgray;
     display: flex;
     flex-direction: column;
@@ -13,21 +13,11 @@
 }
 
 .image {
-    width: 100%;
     background-color: grey;
-    height: 200px;
+    height: 300px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.project h4{
-    margin: 0 0 0 10px;
-}
 
-.description{
-    margin: 5px;
-    height: 100px;
-    background-color: grey;
-}

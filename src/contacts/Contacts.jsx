@@ -5,15 +5,16 @@ import styles from '../common/styles/Container.module.css'
 
 const Contacts = () => {
     return (
-        <div className={`${s.contactsBlock}  `}>
+        <div className={s.contactsBlock}>
             <div className={`${s.contactsContainer} ${styles.container}`}>
-                    <div className={s.title}> Contacts</div>
+                    <h2 className={s.title}> Contacts</h2>
                 <form action="" className={s.form}>
                     <input type="text"/>
                     <input type="text"/>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <textarea/>
+                    <button type="submit" className={s.button}> Send</button>
                 </form>
-                <button className={s.button}> Send</button>
+
             </div>
         </div>
     );

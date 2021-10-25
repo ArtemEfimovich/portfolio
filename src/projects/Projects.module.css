@@ -1,34 +1,22 @@
-.projectsBlock{
-background-color: rgba(0,0,0,.8);
+.projectsBlock {
+    background-color: rgba(0, 0, 0, .8);
 }
 
-.projectsContainer{
-    align-items: center;
+.projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
-}
+    flex-wrap: nowrap;
 
-.projectsContainer h3{
-    position: absolute;
-    left: -6px;
-    top: 0;
-    font-family: "Montserrat";
-    color: transparent;
-    font-size: 150px;
-    font-weight: 900;
-    opacity: .1;
-    line-height: 0;
-    -webkit-text-stroke: 1px #000;
-    -webkit-user-select: none;
+
 }
 
 
-.title{
+.title {
     background-color: darkgray;
 }
 
 
-.projects{
+.projects {
     border: 1px solid;
     width: 100%;
     display: flex;
@@ -37,8 +25,8 @@ background-color: rgba(0,0,0,.8);
 }
 
 
-@media screen and (max-width: 630px) {
-    .projects{
+@media screen and (max-width: 1129px) {
+    .projects {
         justify-content: center;
     }
 }

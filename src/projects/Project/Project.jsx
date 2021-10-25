@@ -8,8 +8,8 @@ const
            <div className={s.image}>
                <button>View</button>
            </div>
-            <h4>Project name</h4>
-            <span className={s.description}>Short description</span>
+            <h4>{title}</h4>
+            <span className={s.description}>{description}</span>
         </div>
     );
 };
