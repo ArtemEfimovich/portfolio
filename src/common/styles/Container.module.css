@@ -7,3 +7,17 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.button{
+    color: #ff014f ;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 6px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;;
+    position: relative;
+    z-index: 2;
+    font-size: 14px;
+    font-weight: 500;
+    border: 0 none;
+}

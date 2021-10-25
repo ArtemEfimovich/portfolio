@@ -1,8 +1,17 @@
 .project {
     width: 450px;
-    background-color: #212428;
-    display: flex;
     flex-direction: column;
+    text-align: left;
+    padding: 30px;
+    position: relative;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    z-index: 1;
+    height: 100%;
+    transition: 0.5s all ease-in-out;
+    display: inline-block;
+    margin-top: 50px;
 
 }
 
