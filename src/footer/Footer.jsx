@@ -7,14 +7,14 @@ const Footer = () => {
     return (
         <div className={`${s.footerBlock} `}>
             <div className={`${s.container} ${styles.container}`}>
-                <h2>Efimovich Artem</h2>
+                <h2 className={s.title}>Efimovich Artem</h2>
                 <div className={s.icons}>
                     <div className={s.icon}>icon</div>
                     <div className={s.icon}>icon</div>
                     <div className={s.icon}>icon</div>
                     <div className={s.icon}>icon</div>
                 </div>
-                <h4>© 2021 All rights reserved</h4>
+                <h4 className={s.title}>© 2021 All rights reserved</h4>
             </div>
         </div>
     );

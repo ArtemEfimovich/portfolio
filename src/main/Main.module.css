@@ -1,10 +1,9 @@
 .mainContainer {
     min-height: 100vh;
-    background-color:  rgba(0,0,0,.8);
+    background-color:#212428;
 }
 
 .container {
-    border: 1px solid;
     height: 100%;
     width: 80%;
     margin: 0 auto;
@@ -15,7 +14,7 @@
 
 .preview {
     width: 300px;
-    background-color: grey;
+    background-color: #212428;
 }
 
 .photo {
@@ -24,6 +23,20 @@
     background-color: grey;
 
 }
+
+.paragraph{
+    color: #ff014f;
+    letter-spacing: 1px;
+    display: block;
+    line-height: 14px;
+}
+
+.name{
+    ord-break: break-word;
+    line-height: 1.4074;
+    color: #ffffff;
+}
+
 
 @media screen and (max-width: 650px) {
     .container {

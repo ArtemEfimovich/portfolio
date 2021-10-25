@@ -1,6 +1,6 @@
 .skill{
     width: 250px;
-    background-color: darkgray;
+    background-color:#212428;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,10 +9,12 @@
 }
 
 .skill h3{
-    margin-top: 0 ;
+    display: block;
+    color:#c4cfde;
 }
 
 .icon{
+    margin: 20px;
     height: 60px;
     width: 60px;
     background-color: grey;
@@ -20,5 +22,5 @@
 
 
 .description{
-
+color: #c4cfde;
 }

@@ -8,7 +8,7 @@ const
            <div className={s.image}>
                <button>View</button>
            </div>
-            <h4>{title}</h4>
+            <h4 className={s.title}>{title}</h4>
             <span className={s.description}>{description}</span>
         </div>
     );

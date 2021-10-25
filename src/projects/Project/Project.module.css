@@ -1,6 +1,6 @@
 .project {
     width: 450px;
-    background-color: darkgray;
+    background-color: #212428;
     display: flex;
     flex-direction: column;
 
@@ -13,6 +13,7 @@
 }
 
 .image {
+    border-radius: 10px;
     background-color: grey;
     height: 300px;
     display: flex;
@@ -20,4 +21,14 @@
     align-items: center;
 }
 
+.title{
+    color: #ff014f;
+    letter-spacing: 1px;
+    display: block;
+    line-height: 14px;
+}
 
+.description{
+    color:#c4cfde;
+    margin-bottom: 30px;
+}

@@ -1,5 +1,5 @@
 .jobBlock{
-    background-color:  rgba(0,0,0,.8);
+    background-color:#212428;
 }
 
 .jobsContainer{
@@ -10,7 +10,10 @@
 
 
 .title{
-    font-size: 1.5em;
+    color: #ff014f;
+    letter-spacing: 1px;
+    display: block;
+    line-height: 14px;
 }
 
 .button{
