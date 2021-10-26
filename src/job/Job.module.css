@@ -9,6 +9,7 @@
 }
 
 .subtitle{
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     display: block;
     line-height: 14px;
@@ -20,6 +21,7 @@
 
 
 .title{
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 1.2;

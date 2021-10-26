@@ -23,14 +23,14 @@
 
 .icon {
     border-radius: 5px;
-    width: 40px;
-    height: 40px;
-    background-color: grey;
+    color: #c4cfde;
 }
 
 .title {
+    font-family: 'Montserrat', sans-serif;
     color: #c4cfde;
     letter-spacing: 1px;
     display: block;
     line-height: 14px;
+    font-weight: 300;
 }

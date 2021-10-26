@@ -9,32 +9,12 @@
 
 }
 
-.title {
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 1.2;
-    color:#c4cfde;
-    margin-top: 15px;
-    margin-bottom:30px
-}
-.subtitle{
-    letter-spacing: 2px;
-    display: block;
-    line-height: 14px;
-    color: #ff014f;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 500;
-}
-
 .skills {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
-
 
 @media screen  and (max-width: 650px){
     .skills{
