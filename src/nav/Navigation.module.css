@@ -2,9 +2,13 @@
     display: flex;
     width: 300px;
     justify-content: space-between;
+    margin-right: 105px;
 }
 
 .nav a{
-    color: #ff014f;
     text-decoration: none;
+    color: #c4cfde;
+    position: relative;
+    font-size: 13px;
+    text-transform: uppercase;
 }

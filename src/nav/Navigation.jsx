@@ -8,7 +8,7 @@ const Navigation = () => {
         <div className={s.nav}>
             <a href="">Home</a>
             <a href="">Skills</a>
-            <a href="">Project</a>
+            <a href="">Projects</a>
             <a href="">Contacts</a>
         </div>
     );

@@ -8,7 +8,8 @@ const Contacts = () => {
     return (
         <div className={s.contactsBlock}>
             <div className={`${s.contactsContainer} ${styles.container}`}>
-                    <h2 className={s.title}> Contacts</h2>
+                    <span className={s.subtitle}>Contact</span>
+                    <h2 className={s.title}> Contact With Me</h2>
                 <form className={s.form}>
                     <input type="text" placeholder="Name"/>
                     <input type="text" placeholder="Email"/>
