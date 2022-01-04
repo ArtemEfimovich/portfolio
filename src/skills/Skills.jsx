@@ -9,27 +9,46 @@ import {faCss3, faGitAlt, faHtml5, faJsSquare, faReact} from "@fortawesome/free-
 
 
 const Skills = () => {
+
+    const skills = [
+        {
+            title: 'HTML',
+            icon: faHtml5,
+            description: 'Jeffrey is a Responsive Minimal Personal Portfolio Template for creative people.'
+        },
+        {
+            title: 'JS',
+            icon: faJsSquare,
+            description: 'Jeffrey is a Responsive Minimal Personal Portfolio Template for creative people.'
+        },
+        {
+            title: 'React',
+            icon: faReact,
+            description: 'Jeffrey is a Responsive Minimal Personal Portfolio Template for creative people.'
+        },
+        {
+            title: 'GIT',
+            icon: faGitAlt,
+            description: 'Jeffrey is a Responsive Minimal Personal Portfolio Template for creative people.'
+        },
+        {
+            title: 'CSS',
+            icon: faCss3,
+            description: 'Jeffrey is a Responsive Minimal Personal Portfolio Template for creative people.'
+        },
+    ]
+
     return (
-        <div className={s.skillsBlock}>
+        <div className={s.skillsBlock} id={'skills'}>
             <div className={`${styles.container} ${s.skillsContainer}`}>
                 <SubTitle subTitle='Features'/>
                 <Title title='Skills'/>
                 <div className={s.skills}>
-                    <Skill title={'HTML'}
-                           icon={<FontAwesomeIcon icon={faHtml5}  size='4x' />}
-                           description={'Jeffrey is a Responsive Minimal Personal Portfolio Template for creative people.'}/>
-                    <Skill title={'JS'}
-                           icon={<FontAwesomeIcon icon={faJsSquare} size='4x'/>}
-                           description={'Jeffrey is a Responsive Minimal Personal Portfolio Template for creative people.'}/>
-                    <Skill title={'React'}
-                           icon={<FontAwesomeIcon icon={faReact} size='4x' spin/>}
-                           description={'Jeffrey is a Responsive Minimal Personal Portfolio Template for creative people.'}/>
-                    <Skill title={'GIT'}
-                           icon={<FontAwesomeIcon icon={faGitAlt} size='4x' />}
-                           description={'Jeffrey is a Responsive Minimal Personal Portfolio Template for creative people.'}/>
-                    <Skill title={'CSS'}
-                           icon={<FontAwesomeIcon icon={faCss3} size='4x'/>}
-                           description={'Jeffrey is a Responsive Minimal Personal Portfolio Template for creative people.'}/>
+                    {skills.map(({title, icon, description}) => {
+                        return <Skill key={title} title={title}
+                                      icon={<FontAwesomeIcon icon={icon} size='4x'/>}
+                                      description={description}/>
+                    })}
                 </div>
             </div>
         </div>

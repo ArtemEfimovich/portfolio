@@ -6,7 +6,7 @@ import styles from '../common/styles/Container.module.css'
 
 const Contacts = () => {
     return (
-        <div className={s.contactsBlock}>
+        <div className={s.contactsBlock} id={'contacts'}>
             <div className={`${s.contactsContainer} ${styles.container}`}>
                     <span className={s.subtitle}>Contact</span>
                     <h2 className={s.title}> Contact With Me</h2>

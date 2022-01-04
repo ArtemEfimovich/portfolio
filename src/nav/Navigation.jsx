@@ -1,15 +1,36 @@
 import React from 'react';
 import s from './Navigation.module.css'
+import {Link} from "react-scroll/modules";
 
 
 
 const Navigation = () => {
     return (
         <div className={s.nav}>
-            <a href="">Home</a>
-            <a href="">Skills</a>
-            <a href="">Projects</a>
-            <a href="">Contacts</a>
+            <Link spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  to="main"
+                  style={{cursor: "pointer"}}>Home</Link>
+            <Link spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  to="skills"
+                  style={{cursor: "pointer"}}>Skills</Link>
+            <Link spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  to="projects"
+                  style={{cursor:"pointer"}}>Projects</Link>
+            <Link spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  to="contacts"
+                  style={{cursor:"pointer"}}>Contacts</Link>
         </div>
     );
 };
