@@ -1,5 +1,5 @@
 .mainContainer {
-    min-height: 100vh;
+    min-height: 85vh;
     background-color: #212428;
     padding-top: 100px;
 }
@@ -34,7 +34,6 @@
     letter-spacing: 2px;
     display: block;
     line-height: 14px;
-
 }
 
 
@@ -45,6 +44,18 @@
     color: #ffffff;
     font-weight: 600;
 }
+
+
+.particles{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.4;
+}
+
 
 
 @media screen and (max-width: 650px) {
