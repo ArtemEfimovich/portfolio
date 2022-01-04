@@ -4,6 +4,7 @@ import styles from '../common/styles/Container.module.css'
 import Project from "./Project/Project";
 import Title from "../common/components/Title";
 import SubTitle from "../common/components/SubTitle";
+import {Fade} from "react-awesome-reveal";
 
 
 const Projects = () => {
@@ -34,18 +35,20 @@ const Projects = () => {
 
     return (
         <div className={s.projectsBlock} id={'projects'}>
-            <div className={`${styles.container} ${s.projectsContainer}`}>
-                <SubTitle subTitle="Check my projects and keep your feedback"/>
-                <Title title="Projects"/>
-                <div className={s.projects}>
-                    {projects.map(({title, icon, description}) => {
-                        return <Project
-                            title={title}
-                            icon={icon}
-                            description={description}/>
-                    })}
+            <Fade>
+                <div className={`${styles.container} ${s.projectsContainer}`}>
+                    <SubTitle subTitle="Check my projects and keep your feedback"/>
+                    <Title title="Projects"/>
+                    <div className={s.projects}>
+                        {projects.map(({title, icon, description}) => {
+                            return <Project
+                                title={title}
+                                icon={icon}
+                                description={description}/>
+                        })}
+                    </div>
                 </div>
-            </div>
+            </Fade>
         </div>
     );
 };

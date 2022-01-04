@@ -6,6 +6,7 @@ import Title from "../common/components/Title";
 import SubTitle from "../common/components/SubTitle";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faCss3, faGitAlt, faHtml5, faJsSquare, faReact} from "@fortawesome/free-brands-svg-icons";
+import {Fade} from "react-awesome-reveal";
 
 
 const Skills = () => {
@@ -40,17 +41,19 @@ const Skills = () => {
 
     return (
         <div className={s.skillsBlock} id={'skills'}>
-            <div className={`${styles.container} ${s.skillsContainer}`}>
-                <SubTitle subTitle='Features'/>
-                <Title title='Skills'/>
-                <div className={s.skills}>
-                    {skills.map(({title, icon, description}) => {
-                        return <Skill key={title} title={title}
-                                      icon={<FontAwesomeIcon icon={icon} size='4x'/>}
-                                      description={description}/>
-                    })}
+            <Fade>
+                <div className={`${styles.container} ${s.skillsContainer}`}>
+                    <SubTitle subTitle='Features'/>
+                    <Title title='Skills'/>
+                    <div className={s.skills}>
+                        {skills.map(({title, icon, description}) => {
+                            return <Skill key={title} title={title}
+                                          icon={<FontAwesomeIcon icon={icon} size='4x'/>}
+                                          description={description}/>
+                        })}
+                    </div>
                 </div>
-            </div>
+            </Fade>
         </div>
     );
 };

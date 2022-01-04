@@ -3,7 +3,8 @@ import s from './Main.module.css'
 import style from '../common/styles/Container.module.css'
 import avatar from '../common/assets/photo.png'
 import Particles from "react-tsparticles";
-
+import ReactTypingEffect from 'react-typing-effect';
+import Tilty from 'react-tilty';
 
 const particlesOptions = {
     background: {
@@ -11,49 +12,14 @@ const particlesOptions = {
             value: "#212428",
         },
     },
-    fpsLimit: 60,
-    fullScreen: { enable: false },
-    interactivity: {
-        events: {
-            onClick: {
-                enable: true,
-                mode: "push",
-            },
-            onHover: {
-                enable: true,
-                mode: "repulse",
-            },
-            resize: true,
-        },
-        modes: {
-            bubble: {
-                distance: 150,
-                duration: 2,
-                opacity: 0.3,
-                size: 40,
-            },
-            push: {
-                quantity: 4,
-            },
-            repulse: {
-                distance: 200,
-                duration: 0.4,
-            },
-        },
-    },
+    fullScreen: {enable: false},
     particles: {
-        color: {
-            value: "#ffffff",
-        },
         links: {
             color: "#ffffff",
             distance: 150,
             enable: true,
-            opacity: 0.3,
-            width: 1,
-        },
-        collisions: {
-            enable: true,
+            opacity: 0.6,
+            width: 0.8,
         },
         move: {
             direction: "none",
@@ -63,23 +29,6 @@ const particlesOptions = {
             speed: 2,
             straight: false,
         },
-        number: {
-            density: {
-                enable: true,
-                area: 800,
-            },
-            value: 70,
-        },
-        opacity: {
-            value: 0.2,
-        },
-        shape: {
-            type: "circle",
-        },
-        size: {
-            random: true,
-            value: 7,
-        },
     },
     detectRetina: true,
 }
@@ -88,17 +37,19 @@ const particlesOptions = {
 const Main = () => {
     return (
         <div className={s.mainContainer} id={'main'}>
-            <div className={s.particlesContainer}>
-                <Particles  className={s.particles} options={particlesOptions}/>
-            </div>
+            <Particles className={s.particles} options={particlesOptions}/>
             <div className={style.container}>
                 <div className={s.preview}>
                     <span className={s.name}>Hi there</span>
                     <h1 className={s.name}>I am Artem Efimovich</h1>
-                    <p className={s.paragraph}>WEB DEVELOPER</p>
+                    <p className={s.paragraph}><ReactTypingEffect
+                        text={["FRONT-END DEVELOPER"]}
+                    /></p>
                 </div>
                 <div className={s.photo}>
-                    <img src={avatar} alt="avatar"/>
+                    <Tilty scale={1.1}>
+                        <img src={avatar} alt="avatar"/>
+                    </Tilty>
                 </div>
             </div>
         </div>

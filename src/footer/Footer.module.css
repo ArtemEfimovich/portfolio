@@ -34,3 +34,7 @@
     line-height: 14px;
     font-weight: 300;
 }
+.wrapper{
+    background-color: #212428;
+    min-height: 30vh;
+}
