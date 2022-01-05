@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Navigation.module.css'
+import s from './Navigation.module.scss'
 import {Link} from "react-scroll/modules";
 
 
@@ -12,25 +12,25 @@ const Navigation = () => {
                   offset={-90}
                   duration={500}
                   to="main"
-                  style={{cursor: "pointer"}}>Home</Link>
+                  style={{color:"#ff014f"}}>Home</Link>
             <Link spy={true}
                   smooth={true}
                   offset={-30}
                   duration={500}
                   to="skills"
-                  style={{cursor: "pointer"}}>Skills</Link>
+                 >Skills</Link>
             <Link spy={true}
                   smooth={true}
                   offset={10}
                   duration={500}
                   to="projects"
-                  style={{cursor:"pointer"}}>Projects</Link>
+                >Projects</Link>
             <Link spy={true}
                   smooth={true}
                   offset={-70}
                   duration={500}
                   to="contacts"
-                  style={{cursor:"pointer"}}>Contacts</Link>
+                  >Contacts</Link>
         </div>
     );
 };

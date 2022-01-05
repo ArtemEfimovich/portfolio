@@ -43,7 +43,7 @@ const Main = () => {
                     <span className={s.name}>Hi there</span>
                     <h1 className={s.name}>I am Artem Efimovich</h1>
                     <p className={s.paragraph}><ReactTypingEffect
-                        text={["FRONT-END DEVELOPER"]}
+                        text={"FRONT-END DEVELOPER"}
                     /></p>
                 </div>
                 <div className={s.photo}>

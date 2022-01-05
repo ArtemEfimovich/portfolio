@@ -24,6 +24,10 @@
 .icon {
     border-radius: 5px;
     color: #c4cfde;
+    cursor: pointer;
+    &:hover{
+        color:#ff014f;
+    }
 }
 
 .title {
