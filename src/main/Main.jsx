@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Main.module.css'
-import style from '../common/styles/Container.module.css'
+import style from '../common/styles/Container.module.scss'
 import avatar from '../common/assets/photo.png'
 import Particles from "react-tsparticles";
 import ReactTypingEffect from 'react-typing-effect';

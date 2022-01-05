@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Job.module.css'
-import styles from '../common/styles/Container.module.css'
+import styles from '../common/styles/Container.module.scss'
 import SubTitle from "../common/components/SubTitle";
 import Title from "../common/components/Title";
 import {Fade} from "react-awesome-reveal";

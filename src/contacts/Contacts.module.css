@@ -1,10 +1,11 @@
 .contactsBlock {
     background-color: #212428;
+    padding-bottom: 20px;
 }
 
 
 .contactsContainer {
-    padding-top: 100px;
+    padding-top: 90px;
     flex-direction: column;
     justify-content: flex-start;
 }
@@ -57,5 +58,5 @@
 
 
 .form input, .form textarea {
-    width: 100%;
+    width: 95%;
 }

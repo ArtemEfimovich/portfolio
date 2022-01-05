@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Contacts.module.css'
-import styles from '../common/styles/Container.module.css'
+import styles from '../common/styles/Container.module.scss'
 import {Fade} from "react-awesome-reveal";
 
 
