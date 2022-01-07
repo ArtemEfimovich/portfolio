@@ -13,22 +13,26 @@ const Projects = () => {
         {
             title: "Social Network",
             icon: "https://i.pinimg.com/564x/11/84/57/11845746c07479ddb280cb7ad57050e5.jpg",
-            description: "a written or spoken statement about something that enables a reader or listener to picture it I recognized the place from your description of it. 2 : sort entry 1 sense 1,"
+            description: "a written or spoken statement about something that enables a reader or listener to picture it I recognized the place from your description of it. 2 : sort entry 1 sense 1,",
+            link: "https://artemefimovich.github.io/social-network/#/profile",
         },
         {
             title: "Todo list",
             icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO2AqMx1yrjS9cI_Cv82K91hsbNhJUFPSPog&usqp=CAU",
-            description: "a written or spoken statement about something that enables a reader or listener to picture it I recognized the place from your description of it. 2 : sort entry 1 sense 1,"
+            description: "a written or spoken statement about something that enables a reader or listener to picture it I recognized the place from your description of it. 2 : sort entry 1 sense 1,",
+            link: "https://artemefimovich.github.io/todolist/#/",
         },
         {
             title: "Cards",
             icon: "http://www.bravercardgame.com/img/icon-qucards-crave.png",
-            description: "a written or spoken statement about something that enables a reader or listener to picture it I recognized the place from your description of it. 2 : sort entry 1 sense 1,"
+            description: "a written or spoken statement about something that enables a reader or listener to picture it I recognized the place from your description of it. 2 : sort entry 1 sense 1,",
+            link: "https://pointjkee.github.io/Final-Project-Friday/#/login",
         },
         {
             title: "Films",
             icon: "https://i.pinimg.com/564x/11/84/57/11845746c07479ddb280cb7ad57050e5.jpg",
-            description: "a written or spoken statement about something that enables a reader or listener to picture it I recognized the place from your description of it. 2 : sort entry 1 sense 1,"
+            description: "a written or spoken statement about something that enables a reader or listener to picture it I recognized the place from your description of it. 2 : sort entry 1 sense 1,",
+            link: "https://artemefimovich.github.io/movies_app/#/",
         },
     ];
 
@@ -40,11 +44,12 @@ const Projects = () => {
                     <SubTitle subTitle="Check my projects and keep your feedback"/>
                     <Title title="Projects"/>
                     <div className={s.projects}>
-                        {projects.map(({title, icon, description}) => {
+                        {projects.map(({title, icon, description, link}) => {
                             return <Project
                                 title={title}
                                 icon={icon}
-                                description={description}/>
+                                description={description}
+                                link={link}/>
                         })}
                     </div>
                 </div>
