@@ -1,5 +1,5 @@
 .footerBlock {
-    min-height: 30vh;
+    min-height: 20vh;
     background-color: #212428;
     display: flex;
     justify-content: center;
@@ -27,6 +27,7 @@
     cursor: pointer;
     &:hover{
         color:#ff014f;
+        transform: translateY(-5px);
     }
 }
 
@@ -40,5 +41,5 @@
 }
 .wrapper{
     background-color: #212428;
-    min-height: 30vh;
+    min-height: 20vh;
 }

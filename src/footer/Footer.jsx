@@ -43,7 +43,7 @@ const Footer = () => {
                                                   size='2x'/></a>
                             })}
                         </div>
-                        <h4 className={s.title}>© 2021 All rights reserved</h4>
+                        <h4 className={s.title}>© 2022 All rights reserved</h4>
                     </div>
                 </div>
             </Fade>

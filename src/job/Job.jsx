@@ -12,8 +12,12 @@ const Job = () => {
                 <div className={`${styles.container} ${s.jobsContainer}`}>
                     <SubTitle subTitle="Hiring"/>
                     <Title style={{fontSize: "30px"}} title="Considering options for remote work"/>
-                    <div>
-                        <button className={styles.button}>Hire me</button>
+                    <div className={s.linkWrapper}>
+                            <a
+                                className={styles.button}
+                                href="https://www.linkedin.com/in/artem-efimovich-2a5730141/"
+                                target="_blank"
+                            > Hire me</a>
                     </div>
 
                 </div>

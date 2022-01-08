@@ -24,10 +24,11 @@
     font-size: 14px;
     font-weight: 500;
     border: 0 none;
+    text-decoration: none;
     &:hover{
         transform: translateY(-5px);
         background: linear-gradient(to right bottom, #212428, #16181c);
-        &::before{
+        &::after{
             content: '';
             position: absolute;
             transition-delay:0s;
