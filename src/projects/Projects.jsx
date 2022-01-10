@@ -45,7 +45,7 @@ const Projects = () => {
                     <Title title="Projects"/>
                     <div className={s.projects}>
                         {projects.map(({title, icon, description, link}) => {
-                            return <Project
+                            return <Project key={title}
                                 title={title}
                                 icon={icon}
                                 description={description}
