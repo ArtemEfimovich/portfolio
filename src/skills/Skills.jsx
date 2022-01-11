@@ -4,9 +4,15 @@ import styles from '../common/styles/Container.module.scss'
 import Skill from "./skill/Skill";
 import Title from "../common/components/Title";
 import SubTitle from "../common/components/SubTitle";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faCss3, faGitAlt, faHtml5, faJsSquare, faReact} from "@fortawesome/free-brands-svg-icons";
 import {Fade} from "react-awesome-reveal";
+import redux from "../common/assets/redux.png"
+import git from "../common/assets/git.png"
+import html from "../common/assets/html.png"
+import jest from "../common/assets/jest.png"
+import react from "../common/assets/react.png"
+import sass from "../common/assets/sass.png"
+import typescript from "../common/assets/typescript.png"
+import javascript from "../common/assets/javascript.png"
 
 
 const Skills = () => {
@@ -14,28 +20,39 @@ const Skills = () => {
     const skills = [
         {
             title: 'HTML',
-            icon: faHtml5,
-            description: 'Jeffrey is a Responsive Minimal Personal Portfolio Template for creative people.'
+            icon: html,
+
         },
         {
             title: 'JS',
-            icon: faJsSquare,
-            description: 'Jeffrey is a Responsive Minimal Personal Portfolio Template for creative people.'
+            icon: javascript,
+
         },
         {
             title: 'React',
-            icon: faReact,
-            description: 'Jeffrey is a Responsive Minimal Personal Portfolio Template for creative people.'
+            icon: react,
+
         },
         {
             title: 'GIT',
-            icon: faGitAlt,
-            description: 'Jeffrey is a Responsive Minimal Personal Portfolio Template for creative people.'
+            icon: git,
+
         },
         {
             title: 'CSS',
-            icon: faCss3,
-            description: 'Jeffrey is a Responsive Minimal Personal Portfolio Template for creative people.'
+            icon: sass,
+        },
+        {
+            title: 'Redux',
+            icon: redux,
+        },
+        {
+            title: 'TS',
+            icon: typescript,
+        },
+        {
+            title: 'Jest',
+            icon: jest,
         },
     ]
 
@@ -46,10 +63,10 @@ const Skills = () => {
                     <SubTitle subTitle='Features'/>
                     <Title title='Skills'/>
                     <div className={s.skills}>
-                        {skills.map(({title, icon, description}) => {
+                        {skills.map(({title, icon}) => {
                             return <Skill key={title} title={title}
-                                          icon={<FontAwesomeIcon icon={icon} size='4x'/>}
-                                          description={description}/>
+                                          icon={icon}
+                            />
                         })}
                     </div>
                 </div>

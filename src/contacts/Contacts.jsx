@@ -15,8 +15,12 @@ const Contacts = () => {
         reset
     } = useForm();
 
+
     const onSubmit = (data) => {
         axios.post('https://smtp-nodejs-server-express.herokuapp.com/sendMessage', {data})
+            .then(res => {
+                console.log('Thanks')
+            })
         setTimeout(() => {
             reset()
         }, 2000)
