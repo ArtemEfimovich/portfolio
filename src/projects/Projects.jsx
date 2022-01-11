@@ -13,7 +13,7 @@ const Projects = () => {
         {
             title: "Social Network",
             icon: "https://i.pinimg.com/564x/11/84/57/11845746c07479ddb280cb7ad57050e5.jpg",
-            description: "Social Network App, use old syntax's React, HOC, Redux,Type Script, work in REST API, thunk, Unit Tests.",
+            description: "use old syntax's React, HOC, Redux,Type Script, work in REST API, thunk, Unit Tests.",
             link: "https://artemefimovich.github.io/social-network/#/profile",
         },
         {
