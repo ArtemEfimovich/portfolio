@@ -3,7 +3,7 @@ import s from './Contacts.module.css'
 import styles from '../common/styles/Container.module.scss'
 import {Fade} from "react-awesome-reveal";
 import {useForm} from "react-hook-form";
-import axios from "axios";
+import {sendEmail} from "../dal/sendEmail";
 
 
 const Contacts = () => {
@@ -16,15 +16,11 @@ const Contacts = () => {
     } = useForm();
 
 
-    const onSubmit = (data) => {
-        axios.post('https://smtp-nodejs-server-express.herokuapp.com/sendMessage', {data})
-            .then(res => {
-                console.log('Thanks')
-            })
-        setTimeout(() => {
-            reset()
-        }, 2000)
+    const onSubmit = async (data) => {
+         await sendEmail(data)
+        reset()
     }
+
 
     return (
         <div className={s.contactsBlock} id={'contacts'}>

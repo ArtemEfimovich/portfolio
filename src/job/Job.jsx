@@ -17,6 +17,7 @@ const Job = () => {
                                 className={styles.button}
                                 href="https://www.linkedin.com/in/artem-efimovich-2a5730141/"
                                 target="_blank"
+                                rel="noreferrer"
                             > Hire me</a>
                     </div>
 

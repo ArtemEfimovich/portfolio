@@ -6,7 +6,7 @@ const Project = ({icon, title, description, link}) => {
     return (
         <div className={s.project}>
             <div className={s.imageContainer}>
-                <a className={s.link} href={link} target="_blank">view</a>
+                <a className={s.link} href={link} target="_blank"  rel="noreferrer">view</a>
                 <img className={s.image} src={icon} alt="icon"/>
             </div>
             <SubTitle style={{padding: "20px 0"}} subTitle={title}/>

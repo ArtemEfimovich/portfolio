@@ -39,6 +39,7 @@ const Footer = () => {
                                           href={link}
                                           className={s.icon}
                                           target="_blank"
+                                          rel="noreferrer"
                                 ><FontAwesomeIcon icon={icon}
                                                   size='2x'/></a>
                             })}
