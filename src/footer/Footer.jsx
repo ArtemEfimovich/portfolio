@@ -15,7 +15,7 @@ const Footer = () => {
         },
         {
             icon: faTelegram,
-            link: 'https://t.me/ArtemEfimovich',
+            link: 'https://t.me/ArtemBeard',
         },
         {
             icon: faGithub,
