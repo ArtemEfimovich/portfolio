@@ -1,9 +1,7 @@
 .mainContainer {
     min-height: 95vh;
     background-color: #212428;
-    align-items: center;
-    justify-content: flex-start;
-    display: flex;
+    padding-top: 150px;
 }
 
 .container {
@@ -45,7 +43,7 @@
 }
 
 
-.particles{
+.particles {
     position: absolute;
     z-index: 0;
     top: 0;
@@ -55,8 +53,8 @@
     opacity: 0.4;
 }
 
-@media only screen and (min-width: 1129px) {
-    .container {
-        justify-content: center;
+@media only screen and (max-width: 855px) {
+    .mainContainer {
+        padding-top: 50px;
     }
 }
